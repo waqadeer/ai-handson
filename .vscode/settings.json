@@ -1,0 +1,13 @@
+{
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "chat.tools.terminal.autoApprove": {
+    "/^python3 -c \"import langchain_core, langchain_ollama; print\\('langchain imports OK'\\)\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^python3 -m pip install --user --break-system-packages pypdf python-multipart$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
